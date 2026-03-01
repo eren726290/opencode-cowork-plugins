@@ -1,0 +1,53 @@
+{
+  "name": "opencode-marketing-agent",
+  "version": "0.1.0",
+  "description": "Standalone OpenCode marketing sub-agent plugin with /marketing hub and 7 independent commands",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "agents",
+    "mcp",
+    "state",
+    "README.md",
+    "WINDOWS_SETUP.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "marketing",
+    "mcp",
+    "windows"
+  ],
+  "author": "opencode-marketing-agent contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/example/opencode-marketing-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/opencode-marketing-agent/issues"
+  },
+  "homepage": "https://github.com/example/opencode-marketing-agent#readme",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.1.19"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.7.3"
+  }
+}

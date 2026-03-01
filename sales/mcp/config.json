@@ -1,0 +1,50 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "slack": {
+      "type": "remote",
+      "url": "https://mcp.slack.com/mcp",
+      "enabled": true
+    },
+    "hubspot": {
+      "type": "remote",
+      "url": "https://mcp.hubspot.com/anthropic",
+      "enabled": true
+    },
+    "close": {
+      "type": "remote",
+      "url": "https://mcp.close.com/mcp",
+      "enabled": true
+    },
+    "clay": {
+      "type": "remote",
+      "url": "https://api.clay.com/v3/mcp",
+      "enabled": true
+    },
+    "zoominfo": {
+      "type": "remote",
+      "url": "https://mcp.zoominfo.com/mcp",
+      "enabled": true
+    },
+    "notion": {
+      "type": "remote",
+      "url": "https://mcp.notion.com/mcp",
+      "enabled": true
+    },
+    "atlassian": {
+      "type": "remote",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "enabled": true
+    },
+    "fireflies": {
+      "type": "remote",
+      "url": "https://api.fireflies.ai/mcp",
+      "enabled": true
+    },
+    "ms365": {
+      "type": "remote",
+      "url": "https://microsoft365.mcp.claude.com/mcp",
+      "enabled": true
+    }
+  }
+}

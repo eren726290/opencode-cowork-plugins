@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Runtime state
+state/*
+!state/.gitkeep
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local planning and handoff docs
+ACTION_LOG.md
+handoff.md
+PLUGIN_ANALYSIS.md
+ARCHITECTURE_DIAGNOSIS.md
+PACKAGE_DESIGN.md
+CONVERSION_PLAN.md

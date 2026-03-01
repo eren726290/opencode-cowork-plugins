@@ -1,0 +1,16 @@
+{
+  "name": "marketing",
+  "version": "0.1.0",
+  "command": "/marketing",
+  "description": "Standalone OpenCode marketing agent with hub command, independent command set, skills, and optional MCP connectors.",
+  "commands": [
+    "marketing",
+    "draft-content",
+    "campaign-plan",
+    "brand-review",
+    "competitive-brief",
+    "performance-report",
+    "seo-audit",
+    "email-sequence"
+  ]
+}

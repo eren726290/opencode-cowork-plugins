@@ -1,0 +1,60 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "slack": {
+      "type": "remote",
+      "url": "https://mcp.slack.com/mcp",
+      "enabled": true
+    },
+    "canva": {
+      "type": "remote",
+      "url": "https://mcp.canva.com/mcp",
+      "enabled": true
+    },
+    "figma": {
+      "type": "remote",
+      "url": "https://mcp.figma.com/mcp",
+      "enabled": true
+    },
+    "hubspot": {
+      "type": "remote",
+      "url": "https://mcp.hubspot.com/anthropic",
+      "enabled": true
+    },
+    "amplitude": {
+      "type": "remote",
+      "url": "https://mcp.amplitude.com/mcp",
+      "enabled": true
+    },
+    "notion": {
+      "type": "remote",
+      "url": "https://mcp.notion.com/mcp",
+      "enabled": true
+    },
+    "ahrefs": {
+      "type": "remote",
+      "url": "https://api.ahrefs.com/mcp/mcp",
+      "enabled": true
+    },
+    "similarweb": {
+      "type": "remote",
+      "url": "https://mcp.similarweb.com",
+      "enabled": true
+    },
+    "klaviyo": {
+      "type": "remote",
+      "url": "https://mcp.klaviyo.com/mcp",
+      "enabled": true
+    },
+    "google-calendar": {
+      "type": "remote",
+      "url": "https://gcal.mcp.claude.com/mcp",
+      "enabled": true
+    },
+    "gmail": {
+      "type": "remote",
+      "url": "https://gmail.mcp.claude.com/mcp",
+      "enabled": true
+    }
+  }
+}

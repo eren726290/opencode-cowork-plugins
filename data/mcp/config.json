@@ -1,0 +1,35 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "snowflake": {
+      "type": "remote",
+      "url": "",
+      "enabled": true
+    },
+    "databricks": {
+      "type": "remote",
+      "url": "",
+      "enabled": true
+    },
+    "bigquery": {
+      "type": "remote",
+      "url": "https://bigquery.googleapis.com/mcp",
+      "enabled": true
+    },
+    "hex": {
+      "type": "remote",
+      "url": "https://app.hex.tech/mcp",
+      "enabled": true
+    },
+    "amplitude": {
+      "type": "remote",
+      "url": "https://mcp.amplitude.com/mcp",
+      "enabled": true
+    },
+    "atlassian": {
+      "type": "remote",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "enabled": true
+    }
+  }
+}

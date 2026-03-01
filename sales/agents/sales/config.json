@@ -1,0 +1,12 @@
+{
+  "name": "sales",
+  "version": "0.1.0",
+  "command": "/sales",
+  "description": "Standalone OpenCode sales agent with command router, sales skills, and optional MCP connectors.",
+  "subcommands": [
+    "call-summary",
+    "forecast",
+    "pipeline-review",
+    "create-asset"
+  ]
+}

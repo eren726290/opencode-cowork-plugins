@@ -1,0 +1,15 @@
+{
+  "name": "data",
+  "version": "0.1.0",
+  "command": "/data",
+  "description": "Standalone OpenCode data agent with a master hub command, six independent commands, and optional MCP integrations.",
+  "commands": [
+    "data",
+    "analyze",
+    "explore-data",
+    "write-query",
+    "create-viz",
+    "build-dashboard",
+    "validate"
+  ]
+}
